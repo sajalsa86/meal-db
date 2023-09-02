@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+}
+
+/* header style start */
+header {
+    background-color: azure;
+}
+
+header nav {
+    height: 80px;
+}
+
+.sing-up-btn:hover {
+    background-color: royalblue;
+    color: azure;
+}
+
+
+.bannar {
+    height: 36rem;
+    background-color: #777;
+    color: white;
+    position: relative;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 100%;
+}
+
+.bannar-content {
+    width: 450px;
+}
+
+.bannar-content p {
+    text-align: justify;
+}
+
+.input-group {
+    position: relative;
+}
+
+.search-btn.btn-warning:hover {
+    background-color: rgb(27, 156, 156);
+    border-color: #ff9800;
+}
+
+.search-btn.btn-warning:hover {
+    color: rgba(255, 255, 255, 0.507);
+}
+
+/* main style start */
+.main-section {
+    background-color: azure;
+}
+
+#meal-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Add spacing between cards */
+}
+
+/* Optional: Adjust card width and other styles as needed */
+.card {
+    flex: 1;
+    max-width: calc(50% - 20px);
+    /* Adjust card width as needed */
+}
+
+.view-details-btn {
+    color: #ff9800;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.view-details-btn:hover {
+    color: rgb(148, 84, 95);
+    text-shadow: 3px 3px 3px gray;
+}

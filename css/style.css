@@ -90,16 +90,36 @@ footer {
     padding-bottom: 50px;
 }
 
-ul {
-    position: absolute;
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    ul {
+        position: absolute;
+    }
+
+    ul li {
+        list-style: none;
+        position: relative;
+        right: 34px;
+    }
+
 }
 
-ul li {
-    list-style: none;
-    position: relative;
-    right: 34px;
-}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .info-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 
-.subscribe {
-    width: 400px;
+    .subscribe p {
+        text-align: center;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    ul li {
+        list-style: none;
+    }
 }
